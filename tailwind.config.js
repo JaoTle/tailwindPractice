@@ -26,7 +26,8 @@ module.exports = {
       indigo: colors.indigo,
       purple: colors.violet,
       pink: colors.pink,
-      sky : colors.sky
+      sky : colors.sky,
+      orange : colors.orange
     },
     spacing: {
       px: '1px',
@@ -49,6 +50,7 @@ module.exports = {
       12: '3rem',
       14: '3.5rem',
       16: '4rem',
+      18 : '4.75rem',
       20: '5rem',
       24: '6rem',
       28: '7rem',
@@ -64,7 +66,7 @@ module.exports = {
       72: '18rem',
       80: '20rem',
       96: '24rem',
-      935 : '60rem'
+      935 : '60rem',
     },
     animation: {
       none: 'none',
@@ -270,6 +272,7 @@ module.exports = {
       ],
     },
     fontSize: {
+      xxs : ['0.5rem',{lineHeight : '0.75rem'}],
       xs: ['0.75rem', { lineHeight: '1rem' }],
       sm: ['0.875rem', { lineHeight: '1.25rem' }],
       base: ['1rem', { lineHeight: '1.5rem' }],

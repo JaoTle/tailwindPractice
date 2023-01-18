@@ -10,12 +10,12 @@
                         <input class="border p-1 px-3 rounded-md" type="text" placeholder="Seacrh">
                     </div>
                     <ul class="menus flex space-x-5">
-                        <li><a class="text-2xl"><font-awesome-icon icon="fa-solid fa-house" /></a></li>
+                        <li><a class="text-2xl" @click="$router.push('/')"><font-awesome-icon icon="fa-solid fa-house" /></a></li>
                         <li><a class="text-2xl"><font-awesome-icon icon="fa-brands fa-facebook-messenger" /></a></li>
                         <li><a class="text-2xl"><font-awesome-icon icon="fa-regular fa-square-plus" /></a></li>
                         <li><a class="text-2xl"><font-awesome-icon icon="fa-regular fa-compass" /></a></li>
                         <li><a class="text-2xl"><font-awesome-icon icon="fa-regular fa-heart" /></a></li>
-                        <li><a><img class="w-6"  :src="profile"/></a></li>
+                        <li><a @click="$router.push('/userProfile')"><img class="w-6"  :src="profile"/></a></li>
                     </ul>
                 </div>
             </div>

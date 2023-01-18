@@ -7,7 +7,7 @@
             <div class="info-top flex items-center justify-center md:justify-start lg:justify-start space-x-5">
                 <h2 class="text-2xl">Lixtle</h2>
                 <button class="bg-sky-500 py-1 px-5 text-white rounded-md">Follow</button>
-                <a> <font-awesome-icon icon="fa-solid fa-ellipsis" /></a>
+                <a><font-awesome-icon icon="fa-solid fa-ellipsis" /></a>
             </div>
             <div class="info-middle flex  justify-center md:justify-start lg:justify-start space-x-5">
                 <p>1.245 posts</p>
@@ -24,7 +24,7 @@
 export default {
     data() {
         return {
-            profile_pic : require('../assets/images/user_profile.png')
+            profile_pic : require('@/assets/images/user_profile.png')
         }
     },
 }

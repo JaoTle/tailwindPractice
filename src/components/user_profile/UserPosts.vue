@@ -26,12 +26,12 @@
 export default {
     data() {
         return {
-            post1 : require("../assets/images/Small-Post.png"),
-            post2 : require("../assets/images/Small-Post-1.png"),
-            post3 : require("../assets/images/Small-Post-2.png"),
-            post4 : require("../assets/images/Small-Post-3.png"),
-            post5 : require("../assets/images/Small-Post-4.png"),
-            post6 : require("../assets/images/Small-Post-5.png"),
+            post1 : require("@/assets/images/Small-Post.png"),
+            post2 : require("@/assets/images/Small-Post-1.png"),
+            post3 : require("@/assets/images/Small-Post-2.png"),
+            post4 : require("@/assets/images/Small-Post-3.png"),
+            post5 : require("@/assets/images/Small-Post-4.png"),
+            post6 : require("@/assets/images/Small-Post-5.png"),
         }
     },
 }

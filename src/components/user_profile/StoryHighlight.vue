@@ -20,7 +20,7 @@
 export default {
     data() {
         return {
-            img_story : require('../assets/images/user_profile.png')
+            img_story : require('@/assets/images/user_profile.png')
         }
     },
 }
