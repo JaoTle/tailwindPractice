@@ -1,12 +1,12 @@
 <template>
     <Navbar/>
     <div class="w-full md:w-935 lg:w-935 mx-auto flex space-x-3">
-      <div class="mt-5 mb-2 w-3/5 h-full border">
+      <div class="mt-5 mb-2 w-614 h-full border">
         <StoryIg/>
         <PostFeed/>
       </div>
       <div class="mt-5 w-2/6 h-96">
-        <Suggest/>
+        <Suggest class="invisible md:visible lg:visible"/>
       </div>
     </div>
     
